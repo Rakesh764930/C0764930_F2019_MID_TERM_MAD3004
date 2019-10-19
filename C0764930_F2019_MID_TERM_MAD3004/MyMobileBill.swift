@@ -29,7 +29,7 @@ class MyMobileBill : MyBill{
     }
 
 
-     override func Idisplay() {
+     override func iDisplay() {
         print("******************************")
         print(" Bill Id = \(bill_id)")
         print(" Bill Type = \(bill_type)")
