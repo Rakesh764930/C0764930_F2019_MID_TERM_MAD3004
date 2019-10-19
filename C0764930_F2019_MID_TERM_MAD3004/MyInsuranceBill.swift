@@ -16,7 +16,7 @@ class MyInsuranceBill:MyBill
     var total_premium=Float
     var type: String
     
-    
+    init(provider_name : String, start_date : String,end_date:String,total_premium:Float,type:String)
     
     
     
