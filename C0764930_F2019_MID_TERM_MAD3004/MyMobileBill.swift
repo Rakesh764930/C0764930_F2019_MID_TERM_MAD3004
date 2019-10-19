@@ -22,6 +22,9 @@ class MyMobileBill : MyBill{
         self.manufacturer_Name=manufacturer_Name
         self.plan=plan
         self.Phone_Number=Phone_Number
+        self.data_Used=data_Used
+        self.mins_Used=mins_Used
+        self.amountOfBill=amountOfBill
     }
 
 
