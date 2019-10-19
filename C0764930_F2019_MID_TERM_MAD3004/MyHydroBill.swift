@@ -17,6 +17,8 @@ class MyHydroBill : MyBill
     {
         self.agency_Name=agency_Name
         self.units_Used=units_Used
+        self.bill_Total=bill_Total
+        super.init(bill_id: bill_id, bill_date: bill_date, billType: String)
 
 
 

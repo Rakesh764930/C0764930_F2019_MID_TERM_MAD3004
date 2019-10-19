@@ -22,7 +22,7 @@ class MyBill : iDisplay
     
     
     
-    var bill_TotalAmount : Float!
+   var bill_TotalAmount : Float!
     
     init(billId : String , billDate : String, billType : String,bill_amount:Float) {
         self.bill_id = billId
