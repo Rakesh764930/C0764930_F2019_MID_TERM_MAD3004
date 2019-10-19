@@ -11,6 +11,9 @@ class MyInternetBill : MyBill{
     
     
     
+    var service_provider_name : String
+    var data_Used : Float
+    var bill_Amount : Float
     
     
     
