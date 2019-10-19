@@ -13,7 +13,9 @@ class MyMobileBill : MyBill{
     var manufacturer_Name:String
     var plan:String
     var Phone_Number:String
-
+    var data_Used:Float
+    var mins_Used:Int
+    var amountOfBill : Float
 
 
 
