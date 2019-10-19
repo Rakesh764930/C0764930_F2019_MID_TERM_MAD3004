@@ -34,7 +34,10 @@ class MyMobileBill : MyBill{
         print(" Bill Id = \(bill_id)")
         print(" Bill Type = \(bill_type)")
         print(" Bill Date = \(bill_date)")
-
+        print("Manufacturer Name = \( manufacturer_Name)")
+        print("Plan  =    \(plan)")
+        print("Phone number = \(Phone_Number)")
+        print("Minutes used = \( mins_Used) mins")
 
 
 
