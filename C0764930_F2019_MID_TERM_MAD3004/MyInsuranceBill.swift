@@ -13,9 +13,8 @@ class MyInsuranceBill:MyBill
     var provider_name = String
     var start_date = String
     var end_date = String
-    
-    
-    
+    var total_premium=Float
+    var type: String
     
     
     
