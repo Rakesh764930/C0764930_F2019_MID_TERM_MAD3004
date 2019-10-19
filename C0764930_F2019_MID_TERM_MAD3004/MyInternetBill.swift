@@ -28,6 +28,9 @@ class MyInternetBill : MyBill{
         print("***************************************")
         print("Bill Id = \(bill_id)")
         print("Bill Type = \(bill_type)")
+        print("Bill Date : \(billDate)")
+        print("Service Provider Name : \(service_provider_name)")
+        print("Data Used : \(data_Used) GB")
     
     
     
