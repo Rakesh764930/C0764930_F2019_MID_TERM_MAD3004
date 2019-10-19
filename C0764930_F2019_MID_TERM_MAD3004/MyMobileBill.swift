@@ -19,7 +19,9 @@ class MyMobileBill : MyBill{
 
 
     init(manufacturer_Name:String,plan:String,Phone_Number:String,data_Used:Float,mins_Used:Int,amountOfBill:Float,bill_id : String,bill_type :String,bill_date: String){
-        
+        self.manufacturer_Name=manufacturer_Name
+        self.plan=plan
+        self.Phone_Number=Phone_Number
     }
 
 
