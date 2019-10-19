@@ -15,7 +15,13 @@ class MyInternetBill : MyBill{
     var data_Used : Float
     var bill_Amount : Float
     
-     init(service_provider_name : String, data_Used : Float, bill_id : String, bill_date : String,bill_Amount: Float, bill_type : String)
+    init(service_provider_name : String, data_Used : Float)
+    {
+        self.service_provider_name = service_provider_name
+        self.data_Used = data_Used
+        self.bill_Amount=bill_Amount
+        super.init(bill_id: bill_id, bill_date: bill_date, bill_type: bill_type)
+}
     
     
     
