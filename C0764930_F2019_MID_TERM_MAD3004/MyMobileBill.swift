@@ -29,7 +29,7 @@ class MyMobileBill : MyBill{
     }
 
 
-    func iDisplay() {
+     override func Idisplay() {
         print("******************************")
         print(" Bill Id = \(bill_id)")
         print(" Bill Type = \(bill_type)")
@@ -38,7 +38,8 @@ class MyMobileBill : MyBill{
         print("Plan  =    \(plan)")
         print("Phone number = \(Phone_Number)")
         print("Minutes used = \( mins_Used) mins")
-
+        print("Bill Amount : \(amountOfBill).currencyFormat())")
+        print("Internet Used : \(data_Used) GB")
 
 
 

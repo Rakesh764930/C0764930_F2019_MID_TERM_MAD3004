@@ -7,9 +7,13 @@
 //
 
 import Foundation
-class MyBill {
+class MyBill : iDisplay
+{
     
     
+    func iDisplay() {
+        
+    }
     var bill_id : String
     var bill_date :  String
     
