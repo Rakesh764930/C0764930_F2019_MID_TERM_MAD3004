@@ -28,7 +28,11 @@ class MyInsuranceBill : MyBill
     self.type=type
     super.init(bill_id: bill_id, bill_date: bill_date, bill_type: bill_type)
     }
-    
+    override func iDisplay() {
+        print("***************************************")
+        print("Provider name = \(provider_name)")
+        print("Start Date = \(start_date)")
+        print("End Date : \(end_date)")
     
     
     
