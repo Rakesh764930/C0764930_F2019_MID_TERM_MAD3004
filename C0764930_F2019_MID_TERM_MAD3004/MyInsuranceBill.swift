@@ -33,7 +33,8 @@ class MyInsuranceBill : MyBill
         print("Provider name = \(provider_name)")
         print("Start Date = \(start_date)")
         print("End Date : \(end_date)")
-    
+        print("total premium: \(total_premium).currencyFormat()")
+        print("Type of insurance : \(type)")
     
     
     
