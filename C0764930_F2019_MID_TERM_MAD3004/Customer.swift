@@ -24,4 +24,23 @@ class Customer : IDisplay
     
     init(cust_Id : String, first_Name : String, last_Name : String, cust_email : String ,bill_Dict :[String:MyBill])
 {
+    self.cust_Id = cust_Id
+    self.first_Name = first_Name
+    self.last_Name = last_Name
+    self.cust_email = cust_email
+    self.bill_Dict = bill_Dict
+    self.full_Name = first_Name + last_Name
+    
+    
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    
+    
 }

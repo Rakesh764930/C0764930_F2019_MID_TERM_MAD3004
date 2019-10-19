@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class MyBill : iDisplay
+class MyBill : IDisplay
 {
     
     
