@@ -25,7 +25,8 @@ class MyHydroBill : MyBill
         print("***************************************")
         print("Bill Id = \(bill_id)")
         print("Bill Type = \(bill_type)")
-    
+        print("Bill Date : \(bill_date)")
+        print("Agency Name : \(agency_Name)")
     
     
     
