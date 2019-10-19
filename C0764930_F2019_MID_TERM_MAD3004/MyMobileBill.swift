@@ -25,6 +25,7 @@ class MyMobileBill : MyBill{
         self.data_Used=data_Used
         self.mins_Used=mins_Used
         self.amountOfBill=amountOfBill
+        super.init(bill_Id: bill_id, bill_date: bill_date, bill_type: bill_type)
     }
 
 
