@@ -18,13 +18,19 @@ class MyHydroBill : MyBill
         self.agency_Name=agency_Name
         self.units_Used=units_Used
         self.bill_Total=bill_Total
-        super.init(bill_id: bill_id, bill_date: bill_date, billType: String)
+        super.init(bill_id: bill_id, bill_date: bill_date, bill_type: String)
+}
 
-
-
-
-
-
-    }
-
+    override func iDisplay() {
+        print("***************************************")
+        print("Bill Id = \(bill_id)")
+        print("Bill Type = \(bill_type)")
+    
+    
+    
+    
+    
+    
+    
+}
 }
