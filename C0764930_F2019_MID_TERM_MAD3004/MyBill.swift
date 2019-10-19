@@ -10,6 +10,10 @@ import Foundation
 class MyBill{
     
     
+    func printData() {
+        
+    }
+    
     
     
     
