@@ -9,4 +9,8 @@
 import Foundation
 
 
+var date = Date()
+var result = date.dateformatter()
+var customer_Dict = [String:Customer]()
+var total_amount_Bill : Float
 
