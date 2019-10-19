@@ -14,6 +14,7 @@
 		9B9DE7DC235BCA5000F797CC /* MyHydroBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE7DB235BCA5000F797CC /* MyHydroBill.swift */; };
 		9B9DE7DE235BCDA500F797CC /* MyInternetBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE7DD235BCDA500F797CC /* MyInternetBill.swift */; };
 		9B9DE7E0235BD1D500F797CC /* MyInsuranceBill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE7DF235BD1D500F797CC /* MyInsuranceBill.swift */; };
+		9B9DE7E2235BD59D00F797CC /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9DE7E1235BD59D00F797CC /* Customer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		9B9DE7DB235BCA5000F797CC /* MyHydroBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyHydroBill.swift; sourceTree = "<group>"; };
 		9B9DE7DD235BCDA500F797CC /* MyInternetBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInternetBill.swift; sourceTree = "<group>"; };
 		9B9DE7DF235BD1D500F797CC /* MyInsuranceBill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInsuranceBill.swift; sourceTree = "<group>"; };
+		9B9DE7E1235BD59D00F797CC /* Customer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				9B9DE7CE235BBE0200F797CC /* main.swift */,
 				9B9DE7D5235BBE1600F797CC /* MyBill.swift */,
 				9B9DE7D9235BCA0100F797CC /* iDisplay.swift */,
+				9B9DE7E1235BD59D00F797CC /* Customer.swift */,
 				9B9DE7DB235BCA5000F797CC /* MyHydroBill.swift */,
 				9B9DE7D7235BC40D00F797CC /* MyMobileBill.swift */,
 				9B9DE7DF235BD1D500F797CC /* MyInsuranceBill.swift */,
@@ -140,6 +143,7 @@
 				9B9DE7DA235BCA0100F797CC /* iDisplay.swift in Sources */,
 				9B9DE7D6235BBE1600F797CC /* MyBill.swift in Sources */,
 				9B9DE7D8235BC40D00F797CC /* MyMobileBill.swift in Sources */,
+				9B9DE7E2235BD59D00F797CC /* Customer.swift in Sources */,
 				9B9DE7CF235BBE0200F797CC /* main.swift in Sources */,
 				9B9DE7DC235BCA5000F797CC /* MyHydroBill.swift in Sources */,
 				9B9DE7DE235BCDA500F797CC /* MyInternetBill.swift in Sources */,
