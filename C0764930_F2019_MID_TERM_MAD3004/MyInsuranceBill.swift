@@ -7,16 +7,28 @@
 //
 
 import Foundation
-class MyInsuranceBill:MyBill
+class MyInsuranceBill : MyBill
 {
     
-    var provider_name = String
-    var start_date = String
-    var end_date = String
-    var total_premium=Float
-    var type: String
+    var provider_name:String
+    var start_date:String
+    var end_date:String
+    var total_premium:Float
+    var type:String
     
     init(provider_name : String, start_date : String,end_date:String,total_premium:Float,type:String)
+    {
+        
+    
+    
+    self.provider_name = provider_name
+    self.start_date = start_date
+    self.end_date = end_date
+    self.total_premium = total_premium
+    self.type=type
+    super.init(bill_id: bill_id, bill_date: bill_date, bill_type: bill_type)
+    }
+    
     
     
     
