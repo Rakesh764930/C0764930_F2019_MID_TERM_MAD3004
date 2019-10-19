@@ -38,7 +38,7 @@ class MyMobileBill : MyBill{
         print("Plan  =    \(plan)")
         print("Phone number = \(Phone_Number)")
         print("Minutes used = \( mins_Used) mins")
-        print("Bill Amount : \(amountOfBill).currencyFormat())")
+        print("Bill Amount : \(amountOfBill).currFormattting())")
         print("Internet Used : \(data_Used) GB")
 
 

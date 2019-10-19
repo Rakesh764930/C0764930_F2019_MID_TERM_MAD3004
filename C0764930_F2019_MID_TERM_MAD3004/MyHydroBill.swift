@@ -28,7 +28,7 @@ class MyHydroBill : MyBill
         print("Bill Date : \(bill_date)")
         print("Agency Name : \(agency_Name)")
         print("Unit Used : \(units_Used) units")
-        print("Bill Amount : \(bill_Total).currencyFormat())")
+        print("Bill Amount : \(bill_Total).currFormattting())")
     
     
     

@@ -31,7 +31,7 @@ class MyInternetBill : MyBill{
         print("Bill Date : \(bill_date)")
         print("Service Provider Name : \(service_provider_name)")
         print("Data Used : \(data_Used) GB")
-        print("total Amount : \(bill_Amount).currencyFormat())")
+        print("total Amount : \(bill_Amount).currFormattting())")
     
     
     

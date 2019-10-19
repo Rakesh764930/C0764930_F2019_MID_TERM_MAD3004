@@ -32,15 +32,18 @@ class Customer : IDisplay
     self.full_Name = first_Name + last_Name
     
     
-    
-    
-    
-    
-    
-    
+    func iDisplay() {
+        print("**************************************************************")
+        print("Customer Id = \(cust_Id)")
+        print("Full Name = \(full_Name)")
+        for i in bill_Dict.values
+        {
+            i.iDisplay()
+        }
+        
     }
     
     
     
     
-}
+    }}
