@@ -7,20 +7,25 @@
 //
 
 import Foundation
-class MyBill : printData{
+class MyBill {
     
     
-    func printData() {
-        
-    }
     var bill_id : String
     var bill_date :  String
     
+    var bill_type:String
     
     
     
     
+    var bill_TotalAmount : Float!
     
+    init(billId : String , billDate : String, billType : String,bill_amount:Float) {
+        self.bill_id = billId
+        self.bill_date = billDate
+        self.bill_type = billType
+        self.bill_TotalAmount=bill_amount
+    }
     
     
     
