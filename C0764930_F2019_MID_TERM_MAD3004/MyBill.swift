@@ -7,13 +7,14 @@
 //
 
 import Foundation
-class MyBill{
+class MyBill : printData{
     
     
     func printData() {
         
     }
-    
+    var bill_id : String
+    var bill_date :  String
     
     
     
