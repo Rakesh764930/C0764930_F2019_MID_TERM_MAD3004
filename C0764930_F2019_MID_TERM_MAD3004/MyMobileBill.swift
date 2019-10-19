@@ -18,7 +18,9 @@ class MyMobileBill : MyBill{
     var amountOfBill : Float
 
 
-
+    init(manufacturer_Name:String,plan:String,Phone_Number:String,data_Used:Float,mins_Used:Int,amountOfBill:Float,bill_id : String,bill_type :String,bill_date: String){
+        
+    }
 
 
 
