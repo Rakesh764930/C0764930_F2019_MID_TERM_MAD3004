@@ -25,11 +25,15 @@ class MyMobileBill : MyBill{
         self.data_Used=data_Used
         self.mins_Used=mins_Used
         self.amountOfBill=amountOfBill
-        super.init(bill_Id: bill_id, bill_date: bill_date, bill_type: bill_type)
+        super.init(bill_id: bill_id, bill_date: bill_date, bill_type: bill_type)
     }
 
 
-
+    func iDisplay() {
+        print("******************************")
+        print(" Bill Id = \(bill_id)")
+        print(" Bill Type = \(bill_type)")
+        print(" Bill Date = \(bill_date)")
 
 
 
