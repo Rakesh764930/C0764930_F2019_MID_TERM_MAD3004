@@ -12,13 +12,13 @@ class MyMobileBill : MyBill{
 
     var manufacturer_Name:String
     var plan:String
-    var Phone_Number:String
+    var Phone_Number:Int16
     var data_Used:Float
     var mins_Used:Int
     var amountOfBill : Float
 
 
-    init(manufacturer_Name:String,plan:String,Phone_Number:String,data_Used:Float,mins_Used:Int,amountOfBill:Float,bill_id : String,bill_type :String,bill_date: String){
+    init(manufacturer_Name:String,plan:String,Phone_Number:Int16,data_Used:Float,mins_Used:Int,amountOfBill:Float,bill_id : String,bill_type :String,bill_date: String){
         self.manufacturer_Name=manufacturer_Name
         self.plan=plan
         self.Phone_Number=Phone_Number
@@ -38,7 +38,7 @@ class MyMobileBill : MyBill{
         print("Plan  =    \(plan)")
         print("Phone number = \(Phone_Number)")
         print("Minutes used = \( mins_Used) mins")
-        print("Bill Amount : \(amountOfBill).currFormattting())")
+        print("Bill Amount : \(amountOfBill).currencyFormat())")
         print("Internet Used : \(data_Used) GB")
 
 

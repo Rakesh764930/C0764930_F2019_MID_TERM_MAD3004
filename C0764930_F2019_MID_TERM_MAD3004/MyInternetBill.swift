@@ -13,13 +13,13 @@ class MyInternetBill : MyBill{
     
     var service_provider_name : String
     var data_Used : Float
-    var bill_Amount : Float
+    var bill_amount:Float
     
-    init(service_provider_name : String, data_Used : Float,bill_Amount:Float)
+    init(service_provider_name : String, data_Used : Float,bill_amount:Float,bill_date:String,bill_type:String)
     {
         self.service_provider_name = service_provider_name
         self.data_Used = data_Used
-        self.bill_Amount=bill_Amount
+        self.bill_amount=bill_amount
         super.init(bill_id: bill_id, bill_date: bill_date, bill_type: bill_type)
 }
     
@@ -31,7 +31,7 @@ class MyInternetBill : MyBill{
         print("Bill Date : \(bill_date)")
         print("Service Provider Name : \(service_provider_name)")
         print("Data Used : \(data_Used) GB")
-        print("total Amount : \(bill_Amount).currFormattting())")
+        print("total Amount : \(bill_amount).currFormattting())")
     
     
     

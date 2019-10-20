@@ -16,19 +16,16 @@ class MyBill : IDisplay
     }
     var bill_id : String
     var bill_date :  String
-    
     var bill_type:String
     
+    var bill_amount:Float!
     
     
-    
-   var bill_TotalAmount : Float!
-    
-    init(billId : String , billDate : String, billType : String,bill_amount:Float) {
-        self.bill_id = billId
-        self.bill_date = billDate
-        self.bill_type = billType
-        self.bill_TotalAmount=bill_amount
+init(bill_id : String , bill_date : String, bill_type : String) {
+        self.bill_id = bill_id
+        self.bill_date = bill_date
+        self.bill_type = bill_type
+      
     }
     
     
