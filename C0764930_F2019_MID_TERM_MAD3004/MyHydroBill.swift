@@ -11,9 +11,9 @@ class MyHydroBill : MyBill
 {
 
     var agency_Name:String
-    var units_Used: Float
+    var units_Used: Int
      var bill_Total : Float
-    init(agency_Name:String,units_Used:Float,bill_Total : Float,bill_id : String,bill_type : String,bill_date : String)
+    init(agency_Name:String,units_Used:Int,bill_Total : Float,bill_id : String,bill_type : String,bill_date : String)
     {
         self.agency_Name=agency_Name
         self.units_Used=units_Used
